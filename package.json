@@ -28,6 +28,7 @@
     "@angular/platform-browser-dynamic": "17.0.2",
     "@angular/platform-server": "17.0.2",
     "@angular/router": "17.0.2",
+    "@angular/ssr": "17.0.0",
     "@angular/service-worker": "17.0.2",
     "@push-based/ngx-fast-svg": "^0.5.0",
     "@rx-angular/cdk": "^16.0.0",
@@ -35,7 +36,6 @@
     "@rx-angular/state": "^16.3.0",
     "@rx-angular/template": "^16.1.1",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
-    "core-js": "^2.6.12",
     "express": "^4.18.2",
     "firebase-functions": "^4.4.0",
     "rxjs": "^7.8.1",
@@ -60,9 +60,6 @@
     "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
     "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
     "@miniflare/tre": "^3.0.0-next.13",
-    "@nguniversal/builders": "^16.2.0",
-    "@nguniversal/common": "^16.2.0",
-    "@nguniversal/express-engine": "^16.2.0",
     "@nx/angular": "17.1.1",
     "@nx/devkit": "17.1.1",
     "@nx/esbuild": "17.1.1",
@@ -145,24 +142,6 @@
       "@angular/cli": "^17.0.0",
       "@nguniversal/common": "^17.0.0",
       "@angular-devkit/build-angular": "^17.0.0,"
-    },
-    "@nguniversal/builders": {
-      "@angular-eslint/schematics": "^17.0.0",
-      "@angular/core": "^17.0.0",
-      "@angular/common": "^17.0.0",
-      "@angular-devkit/build-angular": "^17.0.0"
-    },
-    "@nguniversal/common": {
-      "@angular-eslint/schematics": "^17.0.0",
-      "@angular/core": "^17.0.0",
-      "@angular/common": "^17.0.0",
-      "@angular-devkit/build-angular": "^17.0.0"
-    },
-    "@nguniversal/express-engine": {
-      "@angular-eslint/schematics": "^17.0.0",
-      "@angular/core": "^17.0.0",
-      "@angular/common": "^17.0.0",
-      "@angular-devkit/build-angular": "^17.0.0"
     },
     "@push-based/user-flow-nx-plugin": {
       "@nx/devkit@": "^17.0.2"
